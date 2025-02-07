@@ -1,0 +1,37 @@
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: gray;
+}
+
+/* Center an Element */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Full viewport height */
+    flex-direction: column; /* Stack items vertically */
+}
+
+/* Round Image */
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #333;
+}
