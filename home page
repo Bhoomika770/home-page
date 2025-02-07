@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Drive - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Google_2015_logo.svg" alt="Google Drive Logo">
+            <h1>Google Drive</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">My Drive</a></li>
+                <li><a href="#">Shared with me</a></li>
+                <li><a href="#">Recent</a></li>
+                <li><a href="#">Starred</a></li>
+                <li><a href="#">Trash</a></li>
+            </ul>
+        </nav>
+        <div class="user">
+            <img src="https://www.gstatic.com/images/branding/product/2x/avatar_circle_blue_512dp.png" alt="User Avatar">
+            <p>bhoomika</p>
+        </div>
+    </header>
+    
+    <main>
+        <section class="content">
+            <div class="file"></div>
+                <p>Document </p>
+            </div>
+            <div class="file">
+            </p>Photo </p>
+            </div>
+            <div class="file">
+            <p>Folder </p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Google Drive</p>
+    </footer>
+</body>
+</html>
